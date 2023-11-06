@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    
+    text-align: center;
+    margin-top: 32px;
+    height: calc(120px + 32px);
+}
+
+header img{
+    width: 120px;
+    padding: 4px;
+}
+
+body * {
+    line-height: 160%;
+    font-family: 'inter', sans-serif;
+}
+
+body{
+    height: 500px;
+    background-image: url(images/Fundo.png);
+    background-repeat: repeat;
+    background-size: 50%;
+    background-color: #272626;
+}
+
+main{
+    margin-top: 32px;
+    max-width: 580px;
+    width: 22%;
+    margin: 32px auto;
+    gap: 24px;
+}
+
+h2{
+     color: white;
+    background-image: linear-gradient(90deg, #0a0a0a 0%, #202020 50.52%, #5e5e5e 100%);
+    border-radius: 10px;
+    position: relative;
+}
+
+section{
+    background-color: #373341;
+    padding: 32px;
+    border-radius: 8px;
+}
+
+.Capa img{
+    transition-property: all;
+    border-radius:8px;
+    width: 100%;   
+    transition: trasform, 3s;
+
+}
+
+
+.Capa:hover{
+    border-radius: 15px;
+    transform: scale(0.9);
+
+}
