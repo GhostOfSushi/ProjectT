@@ -32,7 +32,7 @@ body *{
     flex-direction: column;
 }
 .left-login > h2{
-    font-size: 3vw;
+    font-size: 2vw;
     color: #77ffc0;
 }
 .left-login-image{
